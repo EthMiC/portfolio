@@ -1,38 +1,115 @@
+:root {
+  --forground-color-1: #223637;
+  --forground-color-2: #868166;
+  --background-color: #f9efe2;
+  --tab-background-color: #f5e3cc;
+  --tag-background-color: #cfbb99;
+  --border-color: #d5b594;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 10vmin;
+  margin-right: 10vmin;
+  margin-bottom: 10vmin;
+}
+
+.App > .links { 
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 1vh;
+  right: 0%;
+}
+
+.App > .links > * { 
+  width: 30px;
+  padding: 5%;
+}
+
+.App > .links > * > * {
+  width: inherit;
+  color: #000;
+}
+
+.App > .introduction {
+  width: 45vw;
+  padding: 6rem;
+}
+
+.App > .introduction {
+  margin: 2rem;
+  padding: 0;
+}
+
+.App > .introduction > .title {
+  color: var(--forground-color-1);
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.App > .introduction > .description {
+  color: var(--forground-color-1);
+  font-size: 1rem;
+}
+
+.App > .project-title {
+  color: var(--forground-color-2);
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.App > .projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:link {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@media (max-width: 1220px) {
+  .App > .introduction > .title {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 870px) {
+  .App > .introduction > .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .App > .links > * { 
+    width: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .App > .introduction > .title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="mail.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.06875"
+     inkscape:cx="400.93567"
+     inkscape:cy="224.09357"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="m 1.436202,6.0100468 6.4053714,5.4663202 c 1.5079643,1.286806 2.2619876,1.930281 3.0768326,2.18033 0.720233,0.220863 1.471025,0.220863 2.191258,0 0.814846,-0.250049 1.568927,-0.893524 3.076856,-2.18033 L 22.591868,6.0100468 M 5.1972094,22.559611 H 18.830861 c 1.316469,0 1.974764,0 2.477563,-0.327983 0.442272,-0.288412 0.801917,-0.748792 1.027226,-1.314937 0.256218,-0.643628 0.256218,-1.486302 0.256218,-3.171499 V 6.3109479 c 0,-1.6851969 0,-2.5278105 -0.256218,-3.1714683 C 22.110341,2.573289 21.750696,2.1129703 21.308424,1.8244964 20.805625,1.4965292 20.14733,1.4965292 18.830861,1.4965292 H 5.1972094 c -1.3164701,0 -1.9747171,0 -2.4775401,0.3279672 C 2.277363,2.1129703 1.9177636,2.573289 1.6924088,3.1394796 1.436202,3.7831374 1.436202,4.6257359 1.436202,6.3109479 V 17.745192 c 0,1.685197 0,2.527871 0.2562068,3.171499 0.2253548,0.566145 0.5849542,1.026525 1.0272605,1.314937 0.502823,0.327983 1.1610581,0.327983 2.4775401,0.327983 z"
+     stroke="#000000"
+     stroke-width="2.76542"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1"
+     style="stroke:#000000;stroke-width:2.77037;stroke-dasharray:none;stroke-opacity:1" />
+</svg>
