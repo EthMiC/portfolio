@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import './App.css';
 import ContentTab from "./components/ContentTab";
 import { BrowserRouter as Router, Link } from 'react-router-dom';
